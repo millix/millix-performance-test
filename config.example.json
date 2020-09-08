@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "ip": "127.0.0.1",
+      "port": "5500",
+      "id": "myNvmhMJrhQ1wDmMqPcio9jEP66YYfoAN7",
+      "signature": "3fEAix1Bbh6fdHFXiRJ1xnSU8YKLJ6tUuS1HyQ1g2ChrAShN3SeMoR37AsQdNWtepcHkYte7fSMQpRSo1RN6Ubxt",
+      "key_identifier": "mybE8MiVBnUCBYq344cAM4q9Y4V1L8bm9x",
+      "address_base": "mybE8MiVBnUCBYq344cAM4q9Y4V1L8bm9x"
+    }
+  ],
+  "transactions_per_node": 4000,
+  "outputs_per_transaction": 4000,
+  "goroutine_count": 25,
+  "receiver_address_base": "mnmKVTVcwXB2w6n816dHRttQgZP7SuUhKW",
+  "receiver_key_identifier": "mnmKVTVcwXB2w6n816dHRttQgZP7SuUhKW"
+}

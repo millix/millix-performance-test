@@ -320,7 +320,7 @@ func (c *Client) SendMillix(receiverAmounts []*ReceiverAmount) (*Transaction, er
 		publicKeyMap[info.AddressBase] = info.AddressAttribute["key_public"]
 	}
 
-	fmt.Printf("[Client] Chose %d outputs. Total chosen amount: %d. Needed: %d", len(chosenOutputs), chosenAmount, neededAmount)
+	fmt.Printf("[Client] Chose %d outputs. Total chosen amount: %d. Needed: %d\n", len(chosenOutputs), chosenAmount, neededAmount)
 
 	inputs := make([]*TransactionInput, 0)
 
